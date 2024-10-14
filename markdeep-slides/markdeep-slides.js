@@ -81,7 +81,7 @@ function initSlides() {
             if (slideCount != 0) {
                 var sn = document.createElement('div');
                 sn.className = "slide-number";
-                sn.innerHTML = `${slideCount}<span class="slide-number-total">/${totalSlideCount}</span>`;
+                sn.innerHTML = `${slideCount}<span class="slide-number-total">/${totalSlideCount - 1}</span>`;
                 slide.appendChild(sn);
             }
 
